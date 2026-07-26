@@ -1,22 +1,85 @@
 aid: dryft
 name: Dryft
-description: Dryft is a company surfaced as a portfolio company of general-catalyst and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Dryft, Inc. is a Palo Alto, California startup building an AI operating system
+  for manufacturing operations. The platform pairs context-aware, agent-based
+  intelligence with mathematical optimization to mimic, optimize, and automate
+  complex human decisions across the shop floor and supply chain. Dryft reads
+  operational data from existing ERPs and inventory systems, identifies issues
+  such as late items or stockouts, and autonomously recommends and executes
+  actions like adjusting order quantities and safety stocks or following up with
+  suppliers. The company frames this as a shift from static Enterprise Resource
+  Planning to Enterprise Resource Automation, freeing planners to focus on
+  strategy over administrative work. Founded in 2024 by CEO Anna-Julia Storch
+  and CTO Leonie Freisinger, Dryft raised a $5M round led by General Catalyst
+  with participation from Neo and Sandberg Bernthal Venture Partners. Dryft does
+  not currently publish a public developer API, SDKs, or documentation; this
+  profile captures its company identity in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/dryft/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/OoC7zjfC9xbmyDhyzFkUW7H2kg.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-founded: '2024'
+x-headquarters: Palo Alto, California, USA
+x-legal-name: Dryft, Inc.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Manufacturing
+- Supply Chain
+- Procurement
+- Automation
+- Enterprise Resource Planning
+- AI Agents
 apis: []
+common:
+- type: DomainSecurity
+  url: security/dryft-domain-security.yml
+- type: Website
+  url: https://dryft.ai/
+- type: Blog
+  url: https://dryft.ai/blog
+- type: About
+  url: https://dryft.ai/manifesto
+- type: Team
+  url: https://dryft.ai/team
+- type: Careers
+  url: https://jobs.ashbyhq.com/dryft
+- type: TermsOfService
+  url: https://dryft.ai/terms
+- type: Imprint
+  url: https://dryft.ai/imprint
+- type: Support
+  url: mailto:contact@dryft.ai
+- type: LinkedIn
+  url: https://linkedin.com/company/dryft-hq
+- type: Twitter
+  url: https://x.com/DryftHQ
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
