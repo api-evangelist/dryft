@@ -16,6 +16,17 @@ description: >-
   not currently publish a public developer API, SDKs, or documentation; this
   profile captures its company identity in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/dryft/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
